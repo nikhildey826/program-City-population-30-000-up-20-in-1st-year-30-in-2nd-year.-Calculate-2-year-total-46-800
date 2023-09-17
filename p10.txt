@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int population = 30000;
+
+    population = population + (0.20 * population);
+    population = population + (0.30 * population);
+
+    printf("%d\n", population);
+
+    return 0;
+}
